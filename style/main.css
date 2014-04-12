@@ -3,7 +3,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #F1C63A;
+  background-image:url('http://hdwallpappers.com/images/wallpapers/Super_Mario_Wallpaper_by_andrestorres12.jpg');  
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center; 
   color: #3A2005;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
