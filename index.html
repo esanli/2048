@@ -21,6 +21,15 @@
   <meta property="og:site_name" content="2048 game mario"/>
   <meta property="og:description" content="Play Udacity 2048. Then, make your own 2048 game in Udacity's 2 hour mini course for programming beginners!"/>
   <meta property="og:image" content="http://gabrielecirulli.github.io/2048/meta/og_image.png"/>
+  <script type="text/javascript">
+
+function PlaySound(path) {
+  var audioElement = document.createElement('audio');
+  audioElement.setAttribute('src', path);
+  audioElement.play();
+}
+
+</script>
 </head>
 <body>
 
@@ -35,7 +44,8 @@
 
     <div class="above-game">
       <p class="game-intro">
-      <a class="restart-button">New Game</a>
+      <a class="restart-button" onclick="javascript:PlaySound('tile-sets/marios/itsme.mp3');">It's Me,Mario!
+      </a>
       Use the arrow keys to slide  Marios. Combine similar Marios to create newer Marios.</p>
       
     </div>
